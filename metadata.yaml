@@ -1,6 +1,8 @@
-homepage: "https://ads-promo.yahoo.co.jp/"
+homepage: "https://www.lycbiz.com/jp/service/yahoo-ads/"
 documentation: "https://github.com/yahoojp-marketing/ads-data-management-api-documents/blob/main/docs_ja/conversion-api-tag.md"
 versions:
+  - sha: 0000000000000000000000000000000000000000
+    changeNotes: Update License.
   - sha: 4ed3bf52fe6c9605df8af60f56985b8492f4c3e1
     changeNotes: Added request source parameter.
   - sha: b0acd02795736c9e522bac1efcb7fe7d85484c1e
