@@ -115,7 +115,7 @@ ___TEMPLATE_PARAMETERS___
         "type": "NON_EMPTY"
       }
     ],
-    "help": "コンバージョンタグにおいてタグを識別するための項目。広告管理ツールで取得した「Conversion API リクエストパラメータ」の yahoo_ydn_conv_label の値をそのまま入力してください。"
+    "help": "コンバージョンタグにおいてタグを識別するための項目。広告管理ツールで取得した「Conversion API リクエストパラメータ」の yahoo_ydn_conv_label の値をそのまま入力してください。コンバージョン設定の「コンバージョン種別」が「ウェブ」の場合にのみ連携可能です。"
   },
   {
     "type": "TEXT",
@@ -415,7 +415,7 @@ ___SERVER_PERMISSIONS___
 
 
 ___TESTS___
- 
+
 scenarios: []
 
 
