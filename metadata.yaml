@@ -1,7 +1,7 @@
 homepage: "https://www.lycbiz.com/jp/service/yahoo-ads/"
 documentation: "https://github.com/yahoojp-marketing/ads-data-management-api-documents/blob/main/docs_ja/conversion-api-tag.md"
 versions:
-  - sha: 0000000000000000000000000000000000000000
+  - sha: 16e6db7893c729883eba49d68e7cc6bfd30dc3c5
     changeNotes: Added a note to the parameter description.
   - sha: 665216984e77612aa726726422b8d7430b2d39dc
     changeNotes: Added new parameters.
