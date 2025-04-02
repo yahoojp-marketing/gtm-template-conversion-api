@@ -207,6 +207,14 @@ function getHashedEmail(input) {
   return undefined;
 }
 
+function convertToE164(input) {
+    let charactersToRemove = ['-', ' ', '(', ')'];
+    for (const c of charactersToRemove) {
+      input = input.split(c).join('');
+    }
+    return input[0] === '0' ? '+81' + input.slice(1) : input;
+}
+
 function getHashedPhoneNumber(input) {
   if (input == null) return undefined;
 
@@ -214,8 +222,8 @@ function getHashedPhoneNumber(input) {
     return input.toLowerCase();
   }
 
-  input = input.split('-').join('').replace('+81', '0');
-  if (input.match('^\\d+$') != null) {
+  input = convertToE164(input);
+  if (input.match('^\\+[1-9]\\d{1,16}$') != null) {
     return convertToHash(input);
   }
   return undefined;
