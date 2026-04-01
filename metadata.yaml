@@ -1,6 +1,8 @@
 homepage: "https://www.lycbiz.com/jp/service/yahoo-ads/"
 documentation: "https://github.com/yahoojp-marketing/ads-data-management-api-documents/blob/main/docs_ja/conversion-api-tag.md"
 versions:
+  - sha: 0000000000000000000000000000000000000000
+    changeNotes: Integration of ad platforms.
   - sha: 6c8c42429e9ff5ddaa219c61cf04d1eedb362fce
     changeNotes: Add note about the new API.
   - sha: 5c47b905149b12a4e9545e467153e1b7b99459d9
